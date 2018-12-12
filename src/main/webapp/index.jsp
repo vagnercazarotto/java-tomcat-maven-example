@@ -7,7 +7,7 @@
 <p> This is change is to verify the Stage vs Production</p>>
 
 
-<p> trigger with a TAG</p>>
+<p> trigger with a commit</p>>
 
 
 </body>
