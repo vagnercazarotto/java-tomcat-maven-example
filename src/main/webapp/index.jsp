@@ -7,21 +7,8 @@
 <p> This is change is to verify the Stage vs Production</p>>
 
 
-<p> Testing Jenkins</p>>
-
-
-<p> Testing Jenkins Update TAG</p>>
-<p> Testing Jenkins Update no TAG</p>>
-<p> Testing Jenkins Update with TAG</p>>
+<p> trigger with a commit</p>>
 
 
 </body>
 </html>
-
-
-
-
-
-
-
-
