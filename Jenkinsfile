@@ -13,9 +13,13 @@ pipeline {
             steps{
                 echo "Hello World"
             }
-
         }
 
+        stage ('Deply in production'){
+            steps{
+                echo "deploing in production"
+            }
+        }
 
 
     }
