@@ -2,22 +2,18 @@ pipeline {
     agent any
     stages {
 
-        stage ('Initialize') {
-            steps {
-                echo "Initializing the code file.."
-            }
-        }
-
-
         stage ('Build in Staging Area'){
             steps{
-                echo "Hello World"
+                sh 'mvn clean project'
             }
         }
 
-        stage ('Deply in production'){
-            steps{
-                echo "deploing in production"
+
+        post{
+            success{
+                echo 'Now Archiving....'
+
+                archiveArtifacts artifacts : '**/*.war'
             }
         }
 
