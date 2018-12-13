@@ -4,7 +4,7 @@ pipeline {
 
         stage ('Build in Staging Area'){
             steps{
-                sh 'mvn clean project'
+                sh 'mvn clean package'
             }
 
 
