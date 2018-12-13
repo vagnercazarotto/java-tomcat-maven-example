@@ -6,7 +6,7 @@ pipeline {
             steps{
                 sh 'mvn clean project'
             }
-        }
+
 
 
         post{
@@ -14,9 +14,9 @@ pipeline {
                 echo 'Now Archiving....'
 
                 archiveArtifacts artifacts : '**/*.war'
+                }
             }
+
         }
-
-
     }
 }
